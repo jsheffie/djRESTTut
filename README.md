@@ -13,4 +13,5 @@ Going through the [django-rest-framework][tut] tutorial.
 
    $ python ./manage.py startapp snippets
 
+   $ curl -X GET http://localhost:8000/snippets/1/ -H "Accept: application/json; indent=4"
 [tut]: http://django-rest-framework.org/tutorial/1-serialization.html
